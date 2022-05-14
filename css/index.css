@@ -1,0 +1,59 @@
+body {
+    background-color: #f4f4f4
+}
+
+header {
+    width: 100%;
+    height: 170px;
+}
+
+header > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+
+header > div:nth-child(1) > div {
+    width: 1200px;
+    height: 100%;
+    background-color: lightblue;
+    margin: 0 auto
+}
+
+header > div:nth-child(2) {
+    width: 100%;
+    height: 140px;
+    background-color: #fff
+}
+
+header > div:nth-child(2) > div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: lightsalmon
+}
+
+/************************************************/
+#content {
+    width: 1200px;
+    height: 10000px;
+    margin: 10px auto 0;
+    position: relative
+}
+
+/*高度将来要删掉*/
+#wwy {
+    width: 100%;
+    height: 480px;
+    background-color: lightgreen
+}
+
+/********************************************************/
+#elevator_list {
+    width: 58px;
+    height: 348px;
+    position: sticky;
+    top: 100px;
+    background-color: red;
+    transform: translate(1220px)
+}
